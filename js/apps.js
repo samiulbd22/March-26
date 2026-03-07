@@ -2,7 +2,7 @@ let footerBtn = document.getElementById("footer__button");
 let scrollBox = document.getElementById("notice__container--notice");
 scrollBox.addEventListener("scroll",function(){
     let counter = scrollBox.scrollHeight-(scrollBox.scrollTop+scrollBox.clientHeight);
-    console.log(counter);
+    //console.log(counter);
     if(counter === 0 || counter ===1 || counter===2|| counter===3|| counter===4){
         footerBtn.style.opacity = 1;
     }else{
@@ -53,4 +53,5 @@ function noticeBoard(a){
     return sum;
 }
 let notice__me = document.getElementById("note__box");
+
 notice__me.innerHTML = noticeBoard(notices);
