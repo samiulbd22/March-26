@@ -82,7 +82,7 @@ const members = {
     othersBill      :200,
     runningMonth    :"March 26",
     previousMonth   :"February-25", // new addDecember link https://grabify.link/P0IBKC
-    upComingMonth   :"April 1,2026",
+    upComingMonth   :"March 25,2026",
     runningMealRate :68,
 
 //Continue for mass calculating {"04/08/25-Cash":4550}    
